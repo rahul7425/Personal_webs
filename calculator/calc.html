@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="calc.css">
+<body>
+    <div class="calculator">
+      <h1>CALCULATE</h1>
+        <input type="text" class="calculator-screen" value="" disabled>
+        <div class="calculator-keys">
+          <button type="button" class="key double" onclick="clearScreen()">AC</button>
+          <button type="button" class="key" onclick="deleteNumber()">CE</button>
+          <button type="button" class="key operator" onclick="appendOperator('/')">÷</button>
+          <button type="button" class="key" onclick="appendNumber('7')">7</button>
+
+          <button type="button" class="key" onclick="appendNumber('8')">8</button>
+          <button type="button" class="key" onclick="appendNumber('9')">9</button>
+          <button type="button" class="key operator" onclick="appendOperator('*')">×</button>
+          <button type="button" class="key" onclick="appendNumber('4')">4</button>
+          
+          <button type="button" class="key" onclick="appendNumber('5')">5</button>
+          <button type="button" class="key" onclick="appendNumber('6')">6</button>
+          <button type="button" class="key operator" onclick="appendOperator('-')">-</button>
+          <button type="button" class="key" onclick="appendNumber('1')">1</button>
+
+          <button type="button" class="key" onclick="appendNumber('2')">2</button>
+          <button type="button" class="key" onclick="appendNumber('3')">3</button>
+          <button type="button" class="key operator" onclick="appendOperator('+')">+</button>
+          <button type="button" class="key double" onclick="appendNumber('0')">0</button>
+
+          <button type="button" class="key" onclick="appendNumber('.')">.</button>
+          <button type="button" class="key" onclick="calculate()">=</button>
+
+        </div>
+      </div>
+</body>
+<script src="./calc.jsx"></script>
+</html>

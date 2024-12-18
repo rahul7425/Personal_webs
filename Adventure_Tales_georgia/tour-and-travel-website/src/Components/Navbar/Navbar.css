@@ -1,0 +1,89 @@
+/* Navbar style */
+.navbar {
+    transition: background-color 0.3s ease, top 0.3s ease;
+}
+
+/* Make navbar visible when scrolling up */
+.navbar-visible {
+    top: 0;
+}
+
+/* Hide navbar when scrolling down */
+.navbar-hidden {
+    top: -100px; /* Adjust based on the navbar's height */
+}
+
+/* Add some transition to smooth the navbar appearance/disappearance */
+.navbar {
+    transition: top 0.3s ease-in-out;
+}
+
+.navbar a {
+    color: rgb(5, 3, 3); /* Text color for navbar items */
+}
+
+.navbar a:hover {
+    color: #04090a; /* Hover color for navbar items */
+}
+
+/* Navbar color change on scroll */
+.navbar {
+    transition: background-color 0.3s ease;
+}
+
+/* Styling for nav links */
+.nav-link {
+    display: inline-block;
+    font-size: 1.3rem;
+    color: rgb(5, 3, 3);
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #04090a;
+    bottom: -5px;
+    left: 0;
+    transition: width 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Nav item fade-in effect */
+.nav-item {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInUp 0.6s ease-in-out forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.nav-item:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.nav-item:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.nav-item:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.nav-item:nth-child(4) {
+    animation-delay: 0.4s;
+}

@@ -1,0 +1,339 @@
+.main_hero_img {
+    background-image: url(/src/assets/image/r-shape.webp);
+    width: 105%;
+    height: auto;
+    background-repeat: round;
+    padding: 118px;
+}
+h1.solutions_headding {
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 29px;
+    font-weight: bold;
+    padding: 25px;
+}
+p.hero_peregrap_1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}  
+.Get_Started{
+    cursor: pointer;
+    background-color: #ab0000;
+    color: #fff;
+    padding: 10px 32px;
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 2px;
+}
+.main_part_webdesign {
+    width: 105%;
+    padding: 43px;
+}
+p.web_text {
+    font-family: sans-serif;
+    font-size: 19px;
+}
+h1.\33 _text {
+    color: #fff;
+    font-size: 151px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+span.years_of {
+    color: #fff;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    position: relative;
+    top: -63px;
+    left: 85px;
+}
+h1.new_webdesig_text {
+    font-size: 33px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-top: 35px;
+}
+span.text_span {
+    color: #ab0000;
+}
+p.one-stop_text {
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 41px;
+}
+.whether_text{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+h1.Services_web_text {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ab0000;
+    font-family: sans-serif;
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+p.journey_peregrap {
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-left: 53px;
+    text-align: center;
+}
+img.icone_img {
+    position: relative;
+    left: 240px;
+    margin-bottom: 21px;
+}
+h1.webdesign_hadding {
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #ab0000;
+    margin-bottom: 10px;
+}
+p.establish_peegrap {
+    font-family: sans-serif;
+    font-weight: 500;
+}
+img.icone_img {
+    width: 62px;
+}
+
+.webdesign_card {
+    box-shadow: 0px 0px 12px -9px;
+    padding: 38px;
+    margin-top: 50px;
+}
+.main_web_contact{
+    background-image: url(../../../assets/image/contact-us-image.jpg);
+    width: 105%;
+    background-repeat: no-repeat;
+    height: auto;
+    padding: 48px;
+    background-size: cover;
+    margin-top: 33px;
+}
+h1.Consulting_text {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 53px;
+    padding: 30px;
+    font-weight: 700;
+}
+button.button_message {
+    cursor: pointer;
+    background-color: #ab0000;
+    color: #fff;
+    padding: 20px 32px;
+    margin-top: 55px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 244px;
+    border-radius: 5px;
+}
+h1.Engagement_text {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    color: #ab0000;
+    margin-top: 49px;
+}
+.button_contact{
+    cursor: pointer;
+    background-color: #ab0000;
+    color: #fff;
+    padding: 20px 60px;
+    margin-top: 18px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 244px;
+    border-radius: 5px;
+}
+h1.Want_hire {
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.main_resource {
+    box-shadow: 0px 0px 12px -9px;
+    padding: 71px;
+    border-radius: 9px;
+}
+img.Consulting_img {
+    width: 100%;
+}
+h1.deliver_text {
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ab0000;
+    margin-top: 50px;
+}
+p.strategic_for {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.Choose_our {
+    margin-top: 60px;
+}
+button.accordion-button.collapsed {
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 15px;
+}
+.Latest_Blogs{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ab0000;
+    font-family: sans-serif;
+    margin-top: 45px;
+    margin-bottom: 41px; 
+}
+button.SOFTWARE_button {
+    font-size: 14px;
+    background-color: #ab0000;
+    color: #fff;
+    padding: 6px 35px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 11px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+h1.Backend_bloge {
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+p.routing_bloge {
+    font-family: sans-serif;
+}
+img.blogs_img {
+    width: 100%;
+    border-radius: 10px;
+}
+.blogs_card {
+    padding: 10px;
+    box-shadow: 0px 0px 12px -9px;
+    border-radius: 5px;
+}
+h1.Frequently_hadding {
+    text-align: center;
+    font-size: 31px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ab0000;
+    margin-top: 21px;
+}
+p.yourself_peregrap {
+    text-align: center;
+    font-size: small;
+    margin-top: 11px;
+}
+.main_bFrequently {
+    padding: 16px;
+    box-shadow: 0px 0px 12px -9px;
+    border-radius: 5px;
+    margin-top: 34px;
+}
+img.img_providing {
+    width: 79%;
+    margin-top: -101px;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    .main_part_webdesign {
+        width: 105%;
+        padding: 43px;
+        margin-left: -7px;
+    }
+    .Unlock_text {
+        margin-left: 22px;
+    }
+    p.one-stop_text {
+        font-family: sans-serif;
+        font-size: 17px;
+        font-weight: 600;
+        margin-top: 41px;
+        margin-left: 14px;
+    }
+    .whether_text {
+        font-family: sans-serif;
+        font-size: 17px;
+        font-weight: 600;
+        margin-top: 25px;
+        margin-left: 14px;
+    }
+    p.journey_peregrap {
+        font-family: sans-serif;
+        font-size: 18px;
+         margin-left: 1px; 
+        text-align: center;
+    }
+    img.icone_img {
+        position: relative;
+        left: 136px;
+        margin-bottom: 21px;
+    }
+    button.button_message {
+        cursor: pointer;
+        background-color: #ab0000;
+        color: #fff;
+        padding: 20px 32px;
+        margin-top: 0px;
+        font-family: sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        margin-left: 35px;
+        border-radius: 5px;
+    }
+    .button_contact {
+        cursor: pointer;
+        background-color: #ab0000;
+        color: #fff;
+        padding: 20px 60px;
+        margin-top: 18px;
+        font-family: sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        margin-left: 23px;
+        border-radius: 5px;
+    }
+    h1.deliver_text {
+        font-size: 36px;
+        font-family: sans-serif;
+        font-weight: 600;
+        color: #ab0000;
+        margin-top: 50px;
+        margin-left: 13px;
+    }
+    p.strategic_for {
+        font-family: sans-serif;
+        font-size: 15px;
+        margin-left: 16px;
+    }
+    img.img_providing {
+        width: 100%;
+        margin-top: -15px;
+    }
+  }

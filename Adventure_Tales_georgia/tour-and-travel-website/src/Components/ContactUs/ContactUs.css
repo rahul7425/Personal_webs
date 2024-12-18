@@ -1,0 +1,116 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 70px auto 0; /* Added 20px margin at the top, auto centers horizontally, and 0 at the bottom */
+  }
+  
+  
+  h2, h3 {
+    color: #333;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .contact-item {
+    background-color: #f9f9f9;
+    border: 1px solid #b9a3c4;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    width: 250px;
+    max-width: 100%;
+  }
+  
+  .contact-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-item a {
+    color: #b9a3c4;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contact-item a:hover {
+    color: #cc6689;
+  }
+  
+  .contact-office-hours, .contact-social, .contact-form {
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+    color: #504655;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s linear, color 0.3s linear;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    /* color: #ff87a1;  */
+    transform: scale(1.1); /* This will make the link "pop up" */
+    text-decoration: underline;
+    
+  }
+  
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #cc6689;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #cc6689;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-info {
+      flex-direction: column;
+    }
+  
+    .contact-item {
+      width: 100%;
+    }
+  }
+  

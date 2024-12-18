@@ -1,0 +1,126 @@
+.main_hero_img {
+    background-image: url(/src/assets/image/r-shape.webp);
+    width: 105%;
+    height: auto;
+    background-repeat: round;
+    padding: 118px;
+}
+h1.solutions_headding {
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 29px;
+    font-weight: bold;
+    padding: 25px;
+}
+p.hero_peregrap_1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}  
+.Get_Started{
+    cursor: pointer;
+    background-color: #ab0000;
+    color: #fff;
+    padding: 10px 32px;
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 2px;
+}
+h1.Elearning_hadding {
+    font-family: sans-serif;
+    font-size: 31px;
+    font-weight: 600;
+    color: #ab0000;
+    margin-top: 54px;
+    margin-bottom: 7px;
+}
+p.innovation_peregrap {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+h1.Offerings_hadding {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #ab0000;
+    margin-top: 45px;
+}
+h1.Consultation_hadding {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+p.analysis_peregrap {
+    font-family: sans-serif;
+    font-size: 17px;
+    margin-top: 7px;
+}
+img.lms_image_icone {
+    position: relative;
+    left: 139px;
+}
+.lms_card_new23 {
+    box-shadow: 0px 0px 11px -8px;
+    padding: 20px;
+    margin-top: 35px;
+}
+h1.new_hadding_Solidify {
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ab0000;
+    margin-top: 71px;
+}
+img.Custom_img {
+    margin-top: 50px;
+}
+ul.main_easily {
+    gap: 91px;
+    font-size: 14px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+h1.Management_hadding1 {
+    text-align: center;
+    font-size: 34px;
+    font-family: sans-serif;
+    color: #ab0000;
+    font-weight: 600;
+    margin-top: 52px;
+}
+.lms_image_icone1{
+    position: relative;
+    left: 81px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    h1.Elearning_hadding {
+        font-family: sans-serif;
+        font-size: 31px;
+        font-weight: 600;
+        color: #ab0000;
+        margin-top: 54px;
+        margin-bottom: 7px;
+        margin-left: 11px;
+    }
+    p.innovation_peregrap {
+        font-family: sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        margin-left: 16px;
+    }
+  }

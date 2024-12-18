@@ -1,0 +1,177 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  color: #333;
+}
+
+/* Container for Services */
+.services-container {
+  padding: 50px 20px;
+  text-align: center;
+  position: relative;
+}
+
+/* Title Styling */
+.services-title {
+  padding: 15px;
+  font-size: 3rem;
+  color: #1a1a1a;
+  font-weight: 700;
+  letter-spacing: 2px;
+  position: relative;
+  /* margin-bottom: 20px; */
+}
+
+.services-title::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background-color: #3d84b8;
+  border-radius: 20px;
+}
+
+/* First Card (Appears on Top) */
+.first-card {
+  margin-bottom: 20px;         /* Reduced bottom margin */
+  background: #fff;
+  padding: 10px;               /* Reduced padding */
+  border-radius: 10px;         /* Smaller border-radius */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Softer and smaller box-shadow */
+  transition: background 0.3s ease-in-out, padding 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+}
+
+.first-card:hover {
+  background: #f0f0f0;        /* Light gray background on hover */
+  padding: 12px;               /* Slightly increased padding on hover */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15); /* Slightly stronger box-shadow on hover */
+  border-radius: 15px;         /* Slightly larger border-radius on hover */
+}
+
+
+.first-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.first-card h3 {
+  font-size: 2rem;
+  color: #333;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+.first-card p {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 1px;
+}
+
+.first-card .more-button {
+  display: inline-block;
+  background-color: #b9a3c4;
+  color: #fff;
+  padding: 12px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.first-card .more-button:hover {
+  background-color: #736879;
+}
+
+/* Grid of All Services */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 0 20px;
+}
+
+/* Base Card Styles */
+.service-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.service-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  transition: all 0.4s ease-in-out;
+  border-radius: 15px;
+}
+
+/* Hover Effects for Cards */
+.service-card:hover img {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+.service-card h3 {
+  font-size: 1.8rem;
+  color: #333;
+  font-weight: 600;
+  padding: 15px 0;
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #777;
+  padding: 0 15px;
+  margin-bottom: 20px;
+}
+
+/* Button Style */
+.service-card .more-button {
+  display: inline-block;
+  background-color: #9d89a7;
+  color: #fff;
+  padding: 12px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.service-card .more-button:hover {
+  background-color: #736879;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-title {
+    font-size: 2.5rem;
+  }
+  .service-card h3 {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,296 @@
+.main_hero_img {
+    background-image: url(/src/assets/image/r-shape.webp);
+    width: 105%;
+    height: auto;
+    background-repeat: round;
+    padding: 118px;
+}
+h1.solutions_headding {
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 29px;
+    font-weight: bold;
+    padding: 25px;
+}
+p.hero_peregrap_1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}  
+.Get_Started{
+    cursor: pointer;
+    background-color: #ab0000;
+    color: #fff;
+    padding: 10px 32px;
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 2px;
+}
+.main_flutter_img {
+    display: flex;
+    gap: 40px;
+    margin-top: 38px;
+}
+h1.Illinois_hadding {
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #ab0000;
+    font-weight: 600;
+    margin-top: 44px;
+}
+p.Flutter_peregrap {
+    font-family: sans-serif;
+    margin-top: 46px;
+    font-size: 17px;
+}
+h1.Flutter_mai_hadding1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 34px;
+    color: #ab0000;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+h1.Flutter_services {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 11px;
+}
+p.current_peregrap {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+section.Flutter_main_section {
+    background-color: #f3f3f3;
+    margin-top: 58px;
+    padding: 50px;
+}
+.Flutter_consulting {
+    background-color: #fff;
+    padding: 42px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 7px -4px;
+    transition: transform 0.3s ease-in-out;
+}
+.Flutter_consulting:hover {
+    transform: scale(1.05);
+}
+h1.ire_Flutter_text {
+    font-size: 34px;
+    font-weight: 600;
+    color: #ab0000;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+p.skillful1_peregrap {
+    font-family: sans-serif;
+    font-size: 17px;
+    margin-bottom: 10px;
+    line-height: 35px;
+}
+button.Hire_Flutter_button {
+    background-color: #ab0000;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 26px;
+    border-radius: 5px;
+    margin-top: 16px;
+}
+img.Flutter3_img {
+    width: 90%;
+    box-shadow: 0 14px 89px 3px rgba(23, 23, 23, 0.25);
+}
+.Hire_Flutter_card {
+    margin-top: 75px;
+    margin-bottom: 36px;
+}
+h1.based_hadding {
+    font-size: 27px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ab0000;
+    margin-top: 70px;
+    margin-bottom: 11px;
+}
+p.Softweb_crm {
+    font-family: sans-serif;
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+h1.Advanced_hadding {
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ab0000;
+    margin-bottom: 6px;
+}
+p.preferred1_peregrap {
+    font-size: 17px;
+    font-family: sans-serif;
+}
+img.Flutter4_img {
+    width: 82%;
+    margin-left: 67px;
+    margin-top: 60px;
+}
+h1.multifaceted_text {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-top: -11px;
+    margin-bottom: 31px;
+}
+h1.Future_contact {
+    font-size: 22px;
+    margin-top: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-bottom: 0.1px #b9b9b9 solid;
+    padding-bottom: 7px;
+    width: 90%;
+}
+section.Flutter_ready_apps_main {
+    background-color: #ebebeb;
+    margin-top: 65px;
+    padding: 53px;
+}
+h1.project_flutter_hadding {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    color: #ab0000;
+    font-weight: 600;
+}
+p.unparalleled_peregrap {
+    font-family: sans-serif;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+h1.in-house {
+    font-family: sans-serif;
+    font-size: 19px;
+    margin-top: 16px;
+    border-bottom: 0.1px #b9b9b9 solid;
+    padding-bottom: 7px;
+    width: 90%;
+    
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    h1.Illinois_hadding {
+        font-family: sans-serif;
+        font-size: 24px;
+        color: #ab0000;
+        font-weight: 600;
+        margin-top: 44px;
+        margin-left: 10px;
+    }
+    .main_flutter_img {
+        display: flex;
+        gap: 40px;
+        margin-top: 20px;
+        margin-left: 23px;
+    }
+    p.Flutter_peregrap {
+        font-family: sans-serif;
+        margin-top: 46px;
+        font-size: 17px;
+        margin-left: 12px;
+    }
+    section.Flutter_main_section {
+        background-color: #f3f3f3;
+        margin-top: 58px;
+        padding: 15px;
+    }
+    img.Flutter3_img {
+        width: 94%;
+        box-shadow: 0 14px 89px 3px rgba(23, 23, 23, 0.25);
+        margin-left: 12px;
+    }
+    h1.ire_Flutter_text {
+        font-size: 34px;
+        font-weight: 600;
+        color: #ab0000;
+        margin-bottom: 10px;
+        font-family: sans-serif;
+        margin-left: 16px;
+    }
+    p.skillful1_peregrap {
+        font-family: sans-serif;
+        font-size: 17px;
+        margin-bottom: 10px;
+        line-height: 35px;
+        margin-left: 13px;
+    }
+    button.Hire_Flutter_button {
+        background-color: #ab0000;
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 17px;
+        font-weight: 600;
+        padding: 10px 26px;
+        border-radius: 5px;
+        margin-top: 16px;
+        margin-left: 13px;
+    }
+    h1.based_hadding {
+        font-size: 27px;
+        font-family: sans-serif;
+        font-weight: 600;
+        color: #ab0000;
+        margin-top: 70px;
+        margin-bottom: 11px;
+        margin-left: 14px;
+    }
+    p.Softweb_crm {
+        font-family: sans-serif;
+        font-size: 17px;
+        margin-bottom: 12px;
+        margin-left: 11px;
+    }
+    h1.Advanced_hadding {
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ab0000;
+    margin-bottom: 6px;
+    margin-left: 15px;
+}
+p.preferred1_peregrap {
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-left: 15px;
+}
+img.Flutter4_img {
+    width: 82%;
+    margin-left: 32px;
+    margin-top: 25px;
+}
+h1.in-house {
+    font-family: sans-serif;
+    font-size: 19px;
+    margin-top: 16px;
+    border-bottom: 0.1px #b9b9b9 solid;
+    padding-bottom: 7px;
+    width: 90%;
+    margin-left: 17px;
+}
+  }
+

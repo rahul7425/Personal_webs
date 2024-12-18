@@ -1,0 +1,225 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Carousel Section */
+.carousel {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-height: 500px; /* Limit max height */
+  overflow: hidden;
+}
+
+.carousel img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 500px; /* Ensure carousel images don't grow too large */
+}
+
+.carousel-caption {
+  position: absolute;
+  width: 70%; /* Increase the width to make the caption area bigger */
+  left: 30%; /* Center the caption horizontally */
+  transform: translateX(-50%);
+  text-align: center;
+  padding: 50px; /* Reduce padding for a more balanced look */
+  color: #f7eeee; /* Text color */
+  font-size: 3rem; /* Increase font size */
+  font-weight: bold; /* Make the text bold */
+  transition: all 0.5s ease-in-out; /* Add smooth transition for caption */
+  line-height: 1.5; /* Increase line-height for better text spacing */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Add a subtle shadow for better text visibility */
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  opacity: 0;
+  transform: translateY(20px); /* Start the text below */
+  transition: all 0.5s ease; /* Smooth animation for captions */
+}
+
+.carousel-item.active .carousel-caption h5,
+.carousel-item.active .carousel-caption p {
+  opacity: 1;
+  transform: translateY(0); /* Text moves up and becomes visible */
+}
+
+.carousel-item {
+  min-height: 300px; /* Ensure carousel items have a minimum height */
+}
+
+.carousel {
+  z-index: 1; /* Ensure it remains above the FAQ */
+  margin-bottom: 1px; /* Add margin between carousel and content */
+}
+
+/* Features and Gallery Section Styles */
+
+/* General Section Styles for Both Features and Gallery */
+.features, .gallery {
+  padding: 3rem 0; /* Consistent padding for both sections */
+  width: 100%;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  flex-wrap: wrap; /* Allow for wrapping in smaller screens */
+  gap: 2rem; /* Space between items */
+}
+
+.features .feature-item {
+  width: 70%; /* Set width to take up approximately half the space */
+  /* Add space between items */
+  padding: 30px; /* Padding inside the feature item */
+  background-color: #fff; /* White background for feature items */
+  border-radius: 10px; /* Rounded corners for feature items */
+  box-shadow: 0px 10px 10px 15px rgba(54, 54, 54, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out; /* Smooth transition for scaling and shadow */
+}
+
+.features .feature-item:hover {
+  transform: scale(1.09); /* Scale up on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}
+
+/* Gallery Section */
+.gallery {
+  background-color: #f8f9fa; /* Light background for contrast */
+  padding: 5rem 0; /* Padding to create spacing */
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping */
+  gap: 2rem; /* Space between gallery items */
+  justify-content: flex-start; /* Align items to the start */
+}
+
+.gallery .gallery-item {
+  position: relative;
+  overflow: hidden; /* Hide overflow for overlay effect */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition for scaling and shadow */
+  flex: 1 1 48%; /* Allow for two items per row and ensure they take up approximately half the width */
+  max-width: 48%; /* Ensure each item is at most 48% width */
+}
+
+.gallery .gallery-item:hover {
+  transform: scale(1.05); /* Scale up on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}
+
+.gallery-item img {
+  width: 100%; /* Full width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 15px; /* Match border radius with the container */
+  transition: transform 0.5s ease-in-out; /* Smooth image transition */
+}
+
+/* Overlay on Gallery */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* Dark overlay */
+  color: white; /* Text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* Hidden initially */
+  transition: opacity 0.3s ease-in-out; /* Smooth transition for opacity */
+  border-radius: 15px; /* Match border radius with image */
+}
+
+.gallery-item:hover .overlay {
+  opacity: 1; /* Show overlay on hover */
+}
+
+.overlay h4 {
+  margin: 0; /* Remove default margin */
+  font-size: 24px; /* Font size for overlay text */
+  text-align: center; /* Center the text */
+}
+
+/* FAQ Section */
+.faq-section {
+  background-color: #f9f9f9;
+  padding: 2rem 0;
+}
+
+.faq {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  margin-bottom: 1.5rem;
+}
+
+/* Styling for the FAQ question button */
+.faq-question {
+  background-color: #a35973; /* Set background color */
+  color: white;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  text-align: left;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth hover transition for color and shadow */
+  border-radius: 8px; /* Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.faq-question:hover {
+  background-color: #cc6689; /* Change background color on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+/* Styling for the FAQ answer */
+.faq-answer {
+  padding: 0 15px;
+  background-color: #e9ecef;
+  border-left: 4px solid #cc6689;
+  transition: padding 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: none; /* Initially hidden */
+}
+
+.faq-answer.show {
+  display: block; /* Show when the state is toggled */
+  padding: 15px; /* Ensure padding is applied when visible */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow when expanded */
+}
+
+/* Ensure the FAQ question button and answer are visually consistent */
+.faq-question, .faq-answer {
+  width: 100%; /* Make sure both question and answer occupy full width */
+}
+
+.accordion-item {
+  margin-bottom: 1.5rem; /* Adjust margin between items */
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #cc6689; /* Change the color of the button when it's expanded */
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow when expanded */
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #b9a3c4;
+  color: black;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: #cc6689;
+}

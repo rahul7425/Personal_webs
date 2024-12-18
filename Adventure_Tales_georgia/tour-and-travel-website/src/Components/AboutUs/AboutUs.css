@@ -1,0 +1,80 @@
+#about-us {
+    background-color: #f8f9fa; /* Light background for the section */
+  }
+  .heading1{
+    font-size: 3rem;
+    
+  }
+  .heading2{
+    font-size: 1.9rem;
+    /* margin-left:70px; */
+  }
+  .heading3{
+    font-size: 1rem;
+  }
+  .para1{
+    font-size: 20px;
+  }
+  
+  .head1{
+    font-size: 3rem;
+  }
+
+  .head2{
+    font-size: 2.1rem;
+    /* margin-left: 50px; */
+  }
+
+  .head3{
+    font-size: 2.1  rem;
+  }
+ .hed1{
+    font-size: 3rem;
+ }
+  .hed2{
+    font-size: 2.2rem;
+   
+  }
+ .hed3{
+    font-size: 1.8rem;
+ } 
+ 
+ .counter-box {
+  background-color: #b9a3c4;  /* Default background color (for older browsers) */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.counter {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #000000; /* Dark color for the counters */
+  margin-bottom: 15px;
+}
+
+.counter-heading {
+  font-size: 1.4rem;
+  color: #32363a;  /* Dark gray for the headings */
+}
+
+/* Ensuring spacing between counter section and footer */
+.counter-section {
+  margin-bottom: 50px; /* Adjust this value to increase/decrease spacing */
+}
+
+/* Adding responsiveness */
+@media (max-width: 768px) {
+  .counter {
+    font-size: 2rem;
+  }
+  .counter-heading {
+    font-size: 1.2rem;
+  }
+  .counter-box {
+    padding: 20px;  /* Reduces padding on smaller screens */
+  }
+}
+
+
+  

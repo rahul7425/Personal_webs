@@ -1,0 +1,383 @@
+.main_hero_img {
+    background-image: url(/src/assets/image/r-shape.webp);
+    width: 105%;
+    height: auto;
+    background-repeat: round;
+    padding: 118px;
+}
+h1.solutions_headding {
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 29px;
+    font-weight: bold;
+    padding: 25px;
+}
+p.hero_peregrap_1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}  
+.Get_Started{
+    cursor: pointer;
+    background-color: #ab0000;
+    color: #fff;
+    padding: 10px 32px;
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+h1.Android_app_hadding {
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ab0000;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+
+p.Android_app_peregrap {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+img.Android_image {
+    width: 100%;
+    margin-top: 39px;
+    margin-bottom: 30px;
+}
+h1.Custom_text {
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 23px;
+    margin-top: 37px;
+}
+.aap_android_card {
+    box-shadow: 0px 0px 5px -3px;
+    padding: 11px;
+    margin-top: 37px;
+    border-radius: 2px;
+    transition: transform 0.3s ease-in-out;
+}
+.aap_android_card:hover {
+    transform: scale(1.05);
+}
+img.Android_image {
+    width: 100%;
+    margin-top: 7px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+button.Android_Apps_button {
+    margin-top: 56px;
+    background-color: #ab0000;
+    color: #fff;
+    padding: 14px 32px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    position: relative;
+    left: 498px;
+}
+h1.Services_aap_hadding {
+    text-align: center;
+    font-size: 27px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ab0000;
+    margin-top: 33px;
+    margin-bottom: 14px;
+}
+p.unicorn_peregrap {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 17px;
+    margin-bottom: 44px;
+}
+h1.Development_app_hadding {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ab0000;
+    margin-bottom: 6px;
+}
+p.scalability_peregrap {
+    font-family: sans-serif;
+    font-size: 17px;
+    margin-bottom: 18px;
+}
+h1.Analysis_1text {
+    font-size: 14px;
+    font-family: sans-serif;
+}
+button.app_nutton_get {
+    margin-top: 23px;
+    background-color: #ab0000;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+i.fa-solid.fa-check {
+    color: #ab0000;
+    margin-right: 9px;
+}
+img.Androidimg1_img {
+    width: 93%;
+    border-radius: 3px;
+}
+.main_aap_newcard{
+    margin-top: 100px;
+}
+.main_part_backguound_aap{
+    background-image: url(../../../assets/image/Android-app_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 105%;
+    height: auto;
+    padding: 30px;
+    margin-top: 47px;
+}
+h1.form_aap {
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    padding: 35px;
+}
+input.name_input {
+    padding: 13px 84px 13px 10px;
+    width: 72%;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+    border-radius: 5px;
+    outline: none;
+    border: 1px #ababab solid;
+    position: relative;
+    left: 92px;
+}
+.Matellio_card {
+    background-color: #eff4f7;
+    border-radius: 5px;
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+button.Submit_Inquiry {
+    background-color: #ab0000;
+    color: #fff;
+    padding: 10px 10px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    margin-bottom: 43px;
+    margin-top: 13px;
+    font-size: 16px;
+    width: 72%;
+    font-weight: 600;
+    position: relative;
+    left: 92px;
+}
+h1.Matellio_new_text {
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 80px;
+}
+h1.Innovative_text {
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 54px;
+    margin-bottom: 13px;
+}
+p.talented_peregrap {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.stand_keeps {
+    margin-left: 66px;
+}
+h1.Stories_text {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #ab0000;
+    margin-top: 28px;
+    margin-bottom: 6px;
+}
+p.projects_peregrap {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+h1.Management_hadding {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 32px;
+    margin-bottom: 20px;
+    color: #ab0000;
+}
+.block_card1 {
+    box-shadow: 0px 0px 6px -3px;
+    margin-top: 39px;
+    border-radius: 7px;
+    transition: transform 0.3s ease-in-out;
+}
+.block_card1:hover {
+    box-shadow: 0px 0px 6px -3px;
+    margin-top: 39px;
+    border-radius: 7px;
+    transform: scale(1.05);
+}
+button.Read_more\)1button {
+    background-color: #ab0000;
+    color: #fff;
+    padding: 10px 33px;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    position: relative;
+    left: 77px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+h1.next_gen1 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #ab0000;
+    margin-top: 42px;
+    margin-bottom: 6px;
+}
+p.Discuss_you_peregrap {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.Next-Gen {
+    margin-top: 42px;
+    box-shadow: 0px 0px 5px 1px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    button.Android_Apps_button {
+        margin-top: 56px;
+        background-color: #ab0000;
+        color: #fff;
+        padding: 14px 32px;
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 5px;
+        position: relative;
+        left: 70px;
+    }
+    p.scalability_peregrap {
+        font-family: sans-serif;
+        font-size: 17px;
+        margin-bottom: 18px;
+        margin-left: 12px;
+    }
+    h1.Development_app_hadding {
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: 600;
+        color: #ab0000;
+        margin-bottom: 6px;
+        margin-left: 10px;
+    }
+    h1.Analysis_1text {
+        font-size: 14px;
+        font-family: sans-serif;
+        margin-left: 10px;
+    }
+    button.app_nutton_get {
+        margin-top: 23px;
+        background-color: #ab0000;
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 5px;
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        margin-left: 10px;
+        margin-bottom: 18px;
+    }
+    img.Androidimg1_img {
+        width: 97%;
+        margin-left: 7px;
+    }
+    input.name_input {
+        padding: 13px 84px 13px 10px;
+        width: 72%;
+        font-family: sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        color: #000;
+        border-radius: 5px;
+        outline: none;
+        border: 1px #ababab solid;
+        position: relative;
+        left: 55px;
+    }
+    h1.form_aap {
+        font-family: sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+        text-align: center;
+        padding: 30px;
+    }
+    button.Submit_Inquiry {
+        background-color: #ab0000;
+        color: #fff;
+        padding: 10px 10px;
+        font-family: sans-serif;
+        border-radius: 5px;
+        margin-bottom: 43px;
+        margin-top: 13px;
+        font-size: 16px;
+        width: 72%;
+        font-weight: 600;
+        position: relative;
+        left: 52px;
+    }
+    button.Read_more\)1button {
+        background-color: #ab0000;
+        color: #fff;
+        padding: 10px 33px;
+        border-radius: 5px;
+        margin-bottom: 18px;
+        position: relative;
+        left: 144px;
+        font-family: sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+    }
+  }

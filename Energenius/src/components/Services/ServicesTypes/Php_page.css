@@ -1,0 +1,246 @@
+.main_hero_img {
+    background-image: url(/src/assets/image/r-shape.webp);
+    width: 105%;
+    height: auto;
+    background-repeat: round;
+    padding: 118px;
+}
+h1.solutions_headding {
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 29px;
+    font-weight: bold;
+    padding: 25px;
+}
+p.hero_peregrap_1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}  
+.Get_Started{
+    cursor: pointer;
+    background-color: #ab0000;
+    color: #fff;
+    padding: 10px 32px;
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 2px;
+}
+h1.PHP_DEVELOPMENT_hadding {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 33px;
+    font-weight: 600;
+    color: #ab0000;
+    margin-bottom: 5px;
+    margin-top: 23px;
+}
+p.PHP_DEVELOPMENT_paregrap {
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.php_main_part {
+    background-color: #f1f1f1;
+    padding: 60px;
+    width: 105%;
+    margin-top: 25px;
+}
+h1.hadding_php {
+    text-align: center;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 23px;
+    margin-bottom: 10px;
+}
+p.featured_peregrap {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+h1.card_hadding_php {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-top: 28px;
+    margin-bottom: 17px;
+}
+p.php_database_peregrap {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 17px;
+    margin-bottom: 26px;
+}
+img.php1_img {
+    position: relative;
+    left: 149px;
+    margin-top: 35px;
+}
+.php_new_card {
+    background-color: #fff;
+    padding: 14px;
+    margin-top: 29px;
+    box-shadow: 0px 0px 15px -8px;
+    border-radius: 17px;
+    margin-bottom: -9px;
+}
+h1.Pride_hadding {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 29px;
+    font-weight: 600;
+    color: #ab0000;
+    margin-top: 17px;
+    margin-bottom: 10px;
+}
+p.Pride_peregrap {
+    text-align: center;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+h1.Responsive_hadding {
+    font-size: 19px;
+    font-family: sans-serif;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+p.Responsive_peregrap {
+    font-family: sans-serif;
+    font-size: 17px;
+}
+img.php2_img {
+    margin-left: 105px;
+}
+h1.Discuss_Your1 {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+p.designs_peregrap2 {
+    font-family: sans-serif;
+    color: #fff;
+    margin-top: 19px;
+    font-size: 18px;
+}
+h1.Regardless_hadding {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: #ab0000;
+    margin-bottom: 6px;
+    margin-top: 14px;
+}
+p.INDUSTRIES_peregrap {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+h1.Education1 {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+p.eLearning_peregrap {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 17px;
+    margin-top: 6px;
+}
+img.php3_img:hover {
+    filter: brightness(99%) contrast(100%) saturate(10%) blur(0px) hue-rotate(6deg);
+}
+img.php3_img {
+    margin-top: 26px;
+    border-radius: 25px;
+}
+h1.Choose_php_hadding {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 27px;
+    margin-top: 29px;
+    font-weight: 600;
+    margin-bottom: 11px;
+}
+p.Choose_php_peregrap {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+img.php_img_card_img {
+    border-radius: 25px 25px 0px 0px;
+    margin-top: 41px;
+}
+h1.Libraries_hadding {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.support_php_card1 {
+    border-radius: 0px 0px 10px 10px;
+    background-color: #fff;
+    padding: 31px;
+    height: 150px;
+}
+.main_php12_section{
+    background-color: #f1f1f1;
+    padding: 60px;
+    width: 105%;
+    margin-top: 25px;
+}
+.support_php_card {
+    box-shadow: 0px 0px 11px -4px;
+    border-radius: 25px 25px 13px 13px;
+    width: 90%;
+}
+h1.Libraries_hadding {
+    font-weight: 500;
+    line-height: 1.3em;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+@media (max-width: 600px) {
+    img.php1_img {
+        position: relative;
+        left: 108px;
+        margin-top: 35px;
+    }
+    h1.Responsive_hadding {
+        font-size: 19px;
+        font-family: sans-serif;
+        margin-bottom: 7px;
+        margin-top: 10px;
+        margin-left: 14px;
+    }
+    p.Responsive_peregrap {
+        font-family: sans-serif;
+        font-size: 17px;
+        margin-left: 14px;
+    }
+    img.php2_img {
+        width: 91%;
+        margin-left: 20px;
+    }
+    p.designs_peregrap2 {
+        font-family: sans-serif;
+        color: #fff;
+        margin-top: 19px;
+        font-size: 16px;
+    }
+    img.php3_img {
+        margin-top: 26px;
+        border-radius: 25px;
+        margin-left: 47px;
+    }
+  }

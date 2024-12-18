@@ -1,0 +1,195 @@
+/* portfolio.css */
+
+.main_portfolio ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.main_portfolio button {
+    border: 2px #1764a3 solid;
+    color: #000;
+    padding: 10px 32px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.main_portfolio ul:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.main_portfolio button:hover {
+    background-color: #1764a3;
+    color: #fff;
+    padding: 10px 32px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.main_portfolio button:focus {
+    background-color: #1764a3;
+    color: #fff;
+    padding: 10px 32px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+h1.sm_supermod {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+h6.real_es {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+h5.we_sikel {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-top: 27px;
+}
+
+.main_part_portfolio {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    padding: 7px;
+    background: #fff;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+.red_more12{
+   border: 2px #1764a3 solid;
+    color: #000000;
+    padding: 10px 32px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 2px;
+    cursor: pointer;  
+    margin-right: 19px;
+    margin-top: 17px;
+}
+
+.red_more12:hover{
+    border: 2px #1764a3 solid;
+    background-color: #1764a3;
+     color: #fff;
+     padding: 10px 32px;
+     font-family: sans-serif;
+     font-weight: 700;
+     font-size: 14px;
+     border-radius: 2px;
+     cursor: pointer;  
+     margin-right: 19px;
+     margin-top: 17px;
+ }
+ .red_more12:focus {
+    border: 2px #1764a3 solid;
+    background-color: #1764a3;
+     color: #fff;
+     padding: 10px 32px;
+     font-family: sans-serif;
+     font-weight: 700;
+     font-size: 14px;
+     border-radius: 2px;
+     cursor: pointer;  
+     margin-right: 19px;
+     margin-top: 17px;
+ }
+.main_part_portfolio img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.main_part_portfolio:hover {
+    transform: translateY(-5px);
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+
+.col-md-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+    .main_portfolio ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .main_portfolio button {
+        border: 2px #1764a3 solid;
+        color: #000;
+        padding: 1px 5px;
+        font-family: sans-serif;
+        font-weight: 700;
+        font-size: 7px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .main_part_portfolio {
+        padding: 15px;
+    }
+
+    h1.sm_supermod {
+        font-size: 18px;
+    }
+
+    h6.real_es,
+    h5.we_sikel {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+

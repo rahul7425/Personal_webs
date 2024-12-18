@@ -1,0 +1,187 @@
+/* General Styling */
+.vehicles-details {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.car-type {
+  font-size: 2.5rem;
+  margin: 40px 0 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Grid layout for cars */
+.car-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Flexible grid for multiple screen sizes */
+  gap: 20px;
+}
+
+/* Card styling */
+.car-card {
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.3s ease-in-out;
+  text-align: left;
+}
+
+.car-card:hover {
+  transform: scale(1.05);
+}
+
+.car-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.car-name {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.car-engine {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Button styling */
+.free-button,
+.insurance-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.free-button {
+  background-color: #485548; /* Green */
+}
+
+.insurance-button {
+  background-color: #435564; /* Blue */
+}
+
+.free-button:hover {
+  background-color: #5a7a5b; /* Darker green */
+}
+
+.insurance-button:hover {
+  background-color: #55728a; /* Darker blue */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 1024px) {
+  /* Adjust car type title font size for tablets */
+  .car-type {
+      font-size: 2rem;
+      margin-bottom: 20px;
+  }
+
+  /* Adjust grid layout for tablets */
+  .car-grid {
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* Slightly smaller cards */
+      gap: 15px;
+  }
+
+  .car-card {
+      padding: 15px; /* Reduce padding for better fitting */
+  }
+
+  .car-name {
+      font-size: 1.4rem;
+  }
+
+  .car-engine {
+      font-size: 1rem;
+  }
+
+  /* Adjust image size for tablets */
+  .car-image {
+      height: 160px; /* Slightly reduced height */
+  }
+
+  .free-button, .insurance-button {
+      padding: 8px 18px; /* Adjust button padding */
+      font-size: 0.95rem;
+  }
+}
+
+/* Mobile Responsiveness (for smaller devices) */
+@media (max-width: 768px) {
+  .car-type {
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+  }
+
+  .car-grid {
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* Mobile-friendly grid */
+      gap: 12px;
+  }
+
+  .car-card {
+      padding: 12px;
+  }
+
+  .car-name {
+      font-size: 1.2rem; /* Adjust car name font size */
+  }
+
+  .car-engine {
+      font-size: 0.9rem; /* Adjust engine font size */
+  }
+
+  .car-image {
+      height: 140px; /* Smaller images for mobile */
+  }
+
+  .free-button, .insurance-button {
+      padding: 8px 15px;
+      font-size: 0.9rem;
+  }
+}
+
+/* Small Mobile Screens */
+@media (max-width: 480px) {
+  .car-type {
+      font-size: 1.6rem;
+      margin-bottom: 10px;
+  }
+
+  .car-grid {
+      grid-template-columns: 1fr; /* Single column layout for mobile screens */
+      gap: 10px;
+  }
+
+  .car-card {
+      padding: 10px;
+  }
+
+  .car-name {
+      font-size: 1.1rem; /* Further reduce car name font size */
+  }
+
+  .car-engine {
+      font-size: 0.85rem;
+  }
+
+  .car-image {
+      height: 120px; /* Much smaller image for small mobile screens */
+  }
+
+  .free-button, .insurance-button {
+      padding: 7px 12px;
+      font-size: 0.85rem;
+  }
+}

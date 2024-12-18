@@ -1,0 +1,279 @@
+.main_hero_img {
+    background-image: url(/src/assets/image/r-shape.webp);
+    width: 105%;
+    height: auto;
+    background-repeat: round;
+    padding: 118px;
+}
+h1.solutions_headding {
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 29px;
+    font-weight: bold;
+    padding: 25px;
+}
+p.hero_peregrap_1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}  
+.Get_Started{
+    cursor: pointer;
+    background-color: #ab0000;
+    color: #fff;
+    padding: 10px 32px;
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+h1.Ecommerce_hadding {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    color: #ab0000;
+    margin-bottom: 9px;
+    margin-top: 10px;
+}
+p.Ecommerce_peregrap {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+h1.Mobility1_hadding {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 23px;
+    margin-bottom: 13px;
+    color: #ab0000;
+    font-weight: 600;
+}
+p.specifically_peregrap {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.Ecommerce_card {
+    box-shadow: 0px 0px 5px -3px;
+    padding: 23px;
+    margin-top: 39px;
+    transition: transform 0.3s ease-in-out;
+}
+.Ecommerce_card:hover {
+    box-shadow: 0px 0px 5px -3px;
+    padding: 23px;
+    margin-top: 39px;
+    transform: scale(1.05);
+}
+h1.Custom_rich_hadding {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #ab0000;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+p.enhance_peregrap {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+h1.Easy_Checkout_hadding {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #ab0000;
+    margin-bottom: 10px;
+}
+p.product_your_peregrap {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.Easy_Checkout_card {
+    box-shadow: 0px 0px 5px -3px;
+    padding: 23px;
+    margin-top: 39px;
+    background-color: #fff;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+}
+.Easy_Checkout_card:hover {
+    box-shadow: 0px 0px 5px -3px;
+    padding: 23px;
+    margin-top: 39px;
+    background-color: #fff;
+    border-radius: 4px;
+    transform: scale(1.05);
+}
+section.main_part_ecommerce_new {
+    background-color: #e9e9e9;
+    margin-top: 53px;
+    padding-bottom: 45px;
+}
+.ecommerce_back_img{
+    background-image: url(../../../assets/image/Ecommerce_background_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 105%;
+    margin-top: 23px;
+}
+.Get_Free_Consultation{
+    cursor: pointer;
+    background-color: #ab0000;
+    color: #fff;
+    padding: 10px 32px;
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 2px;
+    margin-bottom: 34px;
+}
+h1.Exclusive_hadding {
+    font-size: 38px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 35px;
+    color: #fff;
+    margin-bottom: 13px;
+}
+p.designs_peregrap {
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #fff;
+}
+h1.Develop_hadding {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ab0000;
+    margin-bottom: 10px;
+    margin-top: 12px;
+}
+p.Develop_peregrap {
+    text-align: center;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+.Develop_1B2C_ecommerce{
+    cursor: pointer;
+    background-color: #ab0000;
+    color: #fff;
+    padding: 10px 32px;
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 2px;
+    margin-bottom: 34px;
+}
+.B2C_eCommerce {
+    margin-top: 105px;
+}
+h1.B2C_hadding_new {
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: #ab0000;
+    margin-bottom: 20px;
+}
+img.Ecommerce_1_img {
+    margin-top: 56px;
+    border-radius: 5px;
+}
+p.dashboards_paregrap {
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 33px;
+}
+h1.Advanced12_hadding {
+    text-align: center;
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ab0000;
+    margin-top: 65px;
+    margin-bottom: 20px;
+}
+h1.AR\/VR_Solutions_hadding {
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ab0000;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+p.immersive_peregrap {
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.Solutions12_card1 {
+    box-shadow: 0px 0px 10px -4px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+.Solutions12_card1:hover {
+    box-shadow: 0px 0px 10px -4px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transform: scale(1.05);
+}
+img.AR_VR1_img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    p.designs_peregrap {
+        font-family: sans-serif;
+        font-size: 19px;
+        color: #fff;
+    }
+    h1.B2C_hadding_new {
+        font-family: sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+        color: #ab0000;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+    p.dashboards_paregrap {
+        font-family: sans-serif;
+        font-size: 17px;
+        line-height: 33px;
+        margin-left: 10px;
+    }
+    .Develop_1B2C_ecommerce {
+        cursor: pointer;
+        background-color: #ab0000;
+        color: #fff;
+        padding: 10px 32px;
+        margin-top: 25px;
+        font-family: sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        border-radius: 2px;
+        margin-bottom: 34px;
+        margin-left: 10px;
+    }
+    img.Ecommerce_1_img {
+        margin-top: 56px;
+        border-radius: 5px;
+        width: 95%;
+        margin-left: 10px;
+    }
+  }

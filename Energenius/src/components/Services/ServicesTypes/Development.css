@@ -1,0 +1,509 @@
+.main_hero_img {
+    background-image: url(/src/assets/image/r-shape.webp);
+    width: 105%;
+    height: auto;
+    background-repeat: round;
+    padding: 118px;
+}
+h1.solutions_headding {
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 29px;
+    font-weight: bold;
+    padding: 25px;
+}
+p.hero_peregrap_1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}  
+.Get_Started{
+    cursor: pointer;
+    background-color: #ab0000;
+    color: #fff;
+    padding: 10px 32px;
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 2px;
+}
+img.main_imgdevelopers {
+    width: 100%;
+}
+h1.Website_mainhedding {
+    font-size: 26px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ab0000;
+    margin-top: 27px;
+    margin-bottom: 7px;
+}
+p.Competition_pre {
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+p.Remember_peregrap {
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+.MEET_OUR_TEAM{
+    cursor: pointer;
+    background-color: #ab0000;
+    color: #fff;
+    padding: 13px 38px;
+    margin-top: 12px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 6px;
+}
+h1.main_hedding_Development {
+    font-size: 27px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #ab0000;
+    margin-top: 37px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+p.Website_Business1 {
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-bottom: 7px;
+    text-align: center;
+}
+p.provide_peregrap {
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+
+}
+.VIEW_MORE1{
+    cursor: pointer;
+    background-color: #ab0000;
+    color: #fff;
+    padding: 8px 27px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 6px;
+ 
+}
+.mentioned_perent {
+    box-shadow: 0px 0px 9px -6px;
+    padding: 23px;
+    margin-top: 57px;
+}
+i.fa-solid.fa-computer {
+    color: #ab0000;
+    font-size: 43px;
+}
+h1.Website_smalll {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ab0000;
+    position: relative;
+    left: 77px;
+    margin-top: -32px;
+}
+p.demands1_peregrap {
+    font-family: sans-serif;
+    margin-top: 15px;
+    text-align: justify;
+    margin-bottom: 9px;
+}
+.our_button1 {
+    display: flex;
+    gap: 31px;
+    justify-content: center;
+}
+p.eCommerce_peregrap {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 36px;
+}
+.OUR_CREATION{
+    cursor: pointer;
+    background-color: #ab0000;
+    color: #fff;
+    padding: 9px 29px;
+    margin-top: 11px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 6px;
+}
+.main_background_new1{
+    background-image: url(../../../assets/image/banner_123.webp);
+    background-repeat: no-repeat;
+    width: 105%;
+    padding: 40px;
+    background-position: center;
+}
+.business_card {
+    width: 50%;
+    float: inline-end;
+}
+h1.DEVELOPERS_name {
+    font-size: 25px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+p.industry-standard {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: 7px;
+}
+h1.contact_us {
+    color: #fff;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.main_1background99 {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-top: 41px;
+}
+.VIEW_MORE12{
+    cursor: pointer;
+    background-color: #ab0000;
+    color: #fff;
+    padding: 8px 27px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 6px;
+    margin-top: -32px;
+    float: inline-end;
+    margin-right: 113px;
+}
+h1.Full-Stack_hedding {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 29px;
+    font-weight: 600;
+    color: #ab0000;
+    margin-bottom: 5px;
+}
+p.approach_peregrap {
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+button.button_Development {
+    border: 2px #ab0000 solid;
+    color: #000;
+    padding: 10px 32px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+button.button_Development:hover {
+    border: 2px #ab0000 solid;
+    color: #fff;
+    padding: 10px 32px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 40px;
+    background-color: #ab0000;
+}
+
+button.button_Development:focus {
+    border: 2px #ab0000 solid;
+    color: #fff;
+    padding: 10px 32px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 40px;
+    background-color: #ab0000;
+}
+.main_Development_button ul{
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+.API_Development {
+    margin-top: 30px;
+    background-color: #0b0062;
+    width: 100%;
+    padding: 17px 10px 41px 17px;
+    border-radius: 15px;
+}
+h1.API_hadding {
+    color: #fff;
+    margin-left: 125px;
+    position: relative;
+    top: -65px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+p.api_peregrap {
+    color: #fff;
+    font-family: sans-serif;
+    margin-left: 122px;
+    margin-top: -58px;
+}
+
+img.api_icone {
+    position: relative;
+    top: 34px;
+}
+h1.Technologies_hadding {
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #ab0000;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+img.softwer_img {
+    width: 100%;
+}
+h1.Industries_hedding {
+    text-align: center;
+    font-size: 29px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ab0000;
+    margin-top: 23px;
+}
+img.icone_icone {
+    width: 52px;
+}
+.Retail_card {
+    float: left;
+    font-size: 13px;
+    margin-top: -38px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: 65px;
+}
+img.icone_icone {
+    margin-top: 47px;
+}
+h1.Maintenance_text {
+    font-size: 27px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ab0000;
+    margin-top: 35px;
+    margin-bottom: 7px;
+}
+p.potential_peregrap {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+p.glimpse_text {
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #ab0000;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+i.fa-solid.fa-briefcase {
+    font-size: 24px;
+    padding: 9px;
+    color: #ab0000;
+}
+ul.Depending_card_main {
+    gap: 9px;
+    padding: 15px;
+    justify-content: center;
+}
+.Depending_card_main li {
+    border: 1px #ab0000 solid;
+    padding: 9px 24px 13px 16px;
+    border-radius: 5px;
+}
+.button_Development1 {
+    color: #fff;
+    padding: 10px 32px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 11px;
+    background-color: #ab0000;
+  
+}
+h1.Frequently_hadding {
+    text-align: center;
+    font-size: 31px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ab0000;
+    margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    h1.Website_mainhedding {
+        font-size: 26px;
+        font-family: sans-serif;
+        font-weight: 600;
+        color: #ab0000;
+        margin-top: 27px;
+        margin-bottom: 7px;
+        margin-left: 10px;
+    }
+    p.Competition_pre {
+        font-family: sans-serif;
+        font-weight: 600;
+        margin-bottom: 6px;
+        margin-left: 13px;
+    }
+    p.Remember_peregrap {
+        font-family: sans-serif;
+        font-size: 15px;
+        text-align: justify;
+        padding: 17px;
+    }
+    .MEET_OUR_TEAM {
+        cursor: pointer;
+        background-color: #ab0000;
+        color: #fff;
+        padding: 13px 38px;
+        margin-top: 12px;
+        font-family: sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        border-radius: 6px;
+        margin-left: 14px;
+    }
+    .business_card {
+        width: 100%;
+        float: inline-end;
+    }
+    h1.DEVELOPERS_name {
+        font-size: 13px;
+        color: #fff;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+    p.industry-standard {
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 14px;
+        margin-top: 7px;
+    }
+    h1.contact_us {
+        color: #fff;
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+    .VIEW_MORE12 {
+        cursor: pointer;
+        background-color: #ab0000;
+        color: #fff;
+        padding: 8px 27px;
+        font-family: sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        border-radius: 6px;
+        margin-top: 9px;
+        float: inline-end;
+        margin-right: 140px;
+    }
+    h1.API_hadding {
+        color: #fff;
+        margin-left: 125px;
+        position: relative;
+        top: -65px;
+        font-size: 14px;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+    .API_Development {
+        margin-top: 30px;
+        background-color: #0b0062;
+        width: 100%;
+        padding: 17px 10px 41px 17px;
+        border-radius: 15px;
+    }
+    h1.Full-Stack_hedding {
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        color: #ab0000;
+        margin-bottom: 5px;
+    }
+    p.approach_peregrap {
+        font-family: sans-serif;
+        font-size: 16px;
+        text-align: center;
+    }
+    button.button_Development {
+        border: 1px #ab0000 solid;
+        color: #000;
+        padding: 2px 2px;
+        font-family: sans-serif;
+        font-size: 8px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 40px;
+    }
+    .main_Development_button ul {
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+    }
+    img.icone_icone {
+        margin-top: 17px;
+        margin-left: 30px;
+    }
+    .Retail_card {
+        float: left;
+        font-size: 13px;
+        margin-top: -38px;
+        font-family: sans-serif;
+        font-weight: 600;
+        margin-left: 108px;
+    }
+    .Depending_card_main li {
+        border: 1px #ab0000 solid;
+        padding: 0px 8px 3px 4px;
+        border-radius: 5px;
+    }
+    ul.Depending_card_main {
+        gap: 4px;
+        padding: 15px;
+        justify-content: center;
+        text-align: center;
+    }
+   
+ 
+
+  }

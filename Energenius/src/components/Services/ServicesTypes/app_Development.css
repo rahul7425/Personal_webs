@@ -1,0 +1,202 @@
+.main_hero_img {
+    background-image: url(/src/assets/image/r-shape.webp);
+    width: 105%;
+    height: auto;
+    background-repeat: round;
+    padding: 118px;
+}
+h1.solutions_headding {
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 29px;
+    font-weight: bold;
+    padding: 25px;
+}
+p.hero_peregrap_1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}  
+.Get_Started{
+    cursor: pointer;
+    background-color: #ab0000;
+    color: #fff;
+    padding: 10px 32px;
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 2px;
+}
+h1.Hire_hadding {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    color: #ab0000;
+    margin-top: 35px;
+    margin-bottom: 14px;
+}
+p.application_peregrap {
+    text-align: center;
+    font-family: sans-serif;
+}
+h1.Cross-Platform {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ab0000;
+    margin-top: 42px;
+    margin-bottom: 5px;
+}
+p.multiple_peregrap {
+    font-family: sans-serif;
+    margin-bottom: 12px;
+}
+h1.mobile_hhhadding {
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ab0000;
+    margin-bottom: 6px;
+}
+p.Android_peregrap {
+    font-family: sans-serif;
+    margin-bottom: 12px;
+}
+img.aap_moblie {
+    width: 52%;
+    margin-top: 57px;
+    margin-left: 116px;
+}
+section.main_app_card65 {
+    background-color: #f3f3f3;
+    padding: 24px;
+    margin-top: 27px;
+}
+.DEVELOPMENT_button{
+    cursor: pointer;
+    color: #000;
+    padding: 14px 39px;
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 2px #ab0000 solid;
+    margin-left: 410px;
+}
+.DEVELOPMENT_button:hover{
+    cursor: pointer;
+    color: #fff;
+    padding: 14px 39px;
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 2px #ab0000 solid;
+    margin-left: 410px;
+    background-color: #ab0000;
+}
+.aap_moblie1{
+    margin-top: 57px;
+    margin-left: 116px;
+}
+h1.Demand_hadding {
+    text-align: center;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ab0000;
+    margin-top: 29px;
+    margin-bottom: 8px;
+}
+p.frameworks_peregrap {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+h1.Languages_hadding {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ab0000;
+    margin-top: 75px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p.tailored_ppregrap {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+ul.python_card {
+    gap: 83px;
+    margin-top: 13px;
+}
+
+
+
+
+
+
+
+@media  (max-width: 600px) {
+    h1.Cross-Platform {
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: 600;
+        color: #ab0000;
+        margin-top: 42px;
+        margin-bottom: 5px;
+        margin-left: 12px;
+    }
+    p.multiple_peregrap {
+        font-family: sans-serif;
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+    h1.mobile_hhhadding {
+        font-size: 22px;
+        font-family: sans-serif;
+        font-weight: 600;
+        color: #ab0000;
+        margin-bottom: 6px;
+        margin-left: 12px;
+    }
+    p.Android_peregrap {
+        font-family: sans-serif;
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+    .DEVELOPMENT_button {
+        cursor: pointer;
+        color: #000;
+        padding: 9px 11px;
+        margin-top: 25px;
+        font-family: sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        border-radius: 5px;
+        border: 2px #ab0000 solid;
+        margin-left: 72px;
+    }
+    .aap_moblie1 {
+        margin-top: 57px;
+        margin-left: 61px;
+    }
+    ul.python_card {
+        gap: 52px;
+        margin-top: 13px;
+        margin-left: 24px;
+    }
+    p.tailored_ppregrap {
+        font-family: sans-serif;
+        font-size: 16px;
+        margin-left: 12px;
+    }
+  }
